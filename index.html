@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+    <h1>Hargun Kaur</h1>
+    <p>Aspiring Web developer | Btech Student | Aspiring Engineer</p>
+    </header>
+    <nav>
+        <a href="#about">About me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+    <section id = "about">
+       <h2>About Me</h2>
+       <p>Hi! I'm a B.Tech student currently pursuing my degree in Electronics and Communication Engineering. 
+    I have a strong interest in web development, programming, and technology. 
+    I enjoy learning new skills, building projects, and exploring how technology can solve real-world problems.</p>
+
+      <p> Alongside academics, I actively participate in college societies. I’ve worked as a <strong>Content Writer</strong> for one of the student societies, where I contributed to blogs, social media posts, and event documentation. 
+   Served as the <strong>PR and Sponsorship Head Coordinator</strong> for the main cultural fest, where I managed external communications, collaborations, and outreach efforts for events and campaigns.</p>
+    </section>
+    <section id = "skills">
+        <h2>My Skills</h2>
+        <table>
+           
+                <tr>
+                    <th>Category</th>
+                    <th>Skills</th>
+                </tr>
+                <tr>
+                    <td>Web Development (Beginner)</td>
+                    <td>HTML, CSS</td>
+                </tr>
+                <tr>
+                    <td>Programming</td>
+                    <td>Python, Java (Basics)</td>
+                </tr>
+                <tr>
+                    <td>Tools</td>
+                    <td>VS Code, Figma, Canva</td>
+                </tr>
+                <tr>
+                <td>Soft Skills</td>
+                <td>Problem-solving, Teamwork, Leadership</td>  
+                </tr>     
+        </table>
+    </section>
+    <section id = "projects">
+        <h2>Projects</h2>
+        <div class="project-card"> <b>Game of Shapes: <br><br></b>Developed a simple game using shapes where the color of each shape changes upon hovering.</div>
+        
+        <div class="project-card"><b>Prototype: <br><br> SoulSync: </b>An app to enhance the mental well-being of students</div>
+        
+        <div class="project-card"><b>Prototype: <br><br> SafeHer:</b> An app to ensure safety of women</div>
+    </section>
+    <section id = "contact">
+        <h2>Get in touch!</h2>
+        <p>I'd love to hear from you! Whether you have a project idea, want to collaborate, or just want to say hello — feel free to reach out.</p>
+    </section>
+<form action="#", method="post">
+<label for="name">Name:</label>
+<br>
+<input type="text" id="name" name="name" style= "width : 40%">
+<br><br>
+<label for="email">Email:</label>
+<br>
+<input type="text" name="email" id="email" style="width: 40%">
+<br><br>
+<label for="subject">Subject:</label>
+<br>
+<select name="subject" id="subject" style="width: 40%;">
+    <option value="project">Project</option>
+    <option value="collaboration">Collaboration</option>
+    <option value="query">Query</option>
+    <option value="query">Other</option>
+</select>
+<br><br>
+<label for="message">Message:</label>
+<br>
+<textarea name="message" id="message" rows="5" style="width: 40%;" required></textarea>
+<br>
+<label>
+  <input type="checkbox" name="subscribe" id="subscribe">
+  Subscribe to newsletter
+</label>
+<br><br>
+<button type="submit">Submit</button>
+</form>
+</main>
+<footer>
+    <p>&copy; 2025 Hargun Kaur. Made with HTML!</p>
+    <p>Connect with me! <br>
+        <a href="mailto:hargunk2006@gmail.com">Email</a>
+        <a target=_blank href="https://www.linkedin.com/in/hargun-kaur-57946a326">Linkedin</a>
+        <a target=_blank href="https://github.com/hargun144">GitHub</a>
+</footer>
+</body>
+</html>
